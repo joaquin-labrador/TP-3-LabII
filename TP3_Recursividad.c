@@ -44,11 +44,11 @@ int main()
     printf("\t La suma del arreglo es %d\n", suma);
      printf("\n");
     //8
+    generarArchivo(arreglo, validos);
     int menor = menorArchivoRecursivo(0, 0);
     printf("El menor numero del arreglo es:\t %d", menor);
     printf("\n");
     //9
-    generarArchivo(arreglo, validos);
     i = registros();
     recorrerArchivo();
     printf("\n");
